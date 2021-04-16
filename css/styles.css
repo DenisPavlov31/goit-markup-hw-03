@@ -1,17 +1,16 @@
-
-
 :root {
-  --main-text-color:#757575;
-  --tittle-color:#212121;
-  --accent-color:#fff;
-  --accent-color-text:#2196F3;
+  --main-text-color: #757575;
+  --tittle-color: #212121;
+  --accent-color: #fff;
+  --accent-color-text: #2196F3;
 
-  --main-bg:#E5E5E5;;
-  --alt-bg:#2F303A;
-  --team-bg:#F5F4FA;
-  
-  --main-font:'Roboto',sans-serif;
-  --logo-font:font-family: 'Raleway',sans-serif;
+  --main-bg: #E5E5E5;
+  ;
+  --alt-bg: #2F303A;
+  --team-bg: #F5F4FA;
+
+  --main-font: 'Roboto', sans-serif;
+  --logo-font: font-family: 'Raleway', sans-serif;
 
 }
 
@@ -26,24 +25,24 @@ body {
 }
 
 .link {
-  color:inherit;
-  text-decoration: none;  
+  color: inherit;
+  text-decoration: none;
 }
 
 .link:hover,
 .link:focus {
-color:var(--accent-color-text)
+  color: var(--accent-color-text)
 }
 
-.list{
-  list-style: none;  
+.list {
+  list-style: none;
 }
 
-.address{
-  font-style:inherit;
+.address {
+  font-style: inherit;
 }
 
-.main-button{
+.main-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -55,7 +54,7 @@ color:var(--accent-color-text)
   cursor: pointer;
 }
 
-.page-title{
+.page-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -65,7 +64,7 @@ color:var(--accent-color-text)
   color: var(--accent-color);
 }
 
-.features{
+.features {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -73,13 +72,13 @@ color:var(--accent-color-text)
   color: var(--tittle-color)
 }
 
-.features-text{
+.features-text {
   font-size: 14px;
   line-height: 1.71;
-  
+
 }
 
-.section-title{
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -87,7 +86,7 @@ color:var(--accent-color-text)
   color: var(--tittle-color);
 }
 
-.team-names{
+.team-names {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -95,42 +94,42 @@ color:var(--accent-color-text)
   color: var(--tittle-color);
 }
 
-.team-profession{
+.team-profession {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  color: var(--main-text-color);  
+  color: var(--main-text-color);
 }
 
-.filter-button{
+.filter-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
   color: var(--tittle-color);
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 .filter-button:hover,
-.filter-button:focus{
-color: var(--accent-color);
+.filter-button:focus {
+  color: var(--accent-color);
 }
 
-.projects{
+.projects {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--tittle-color)    
+  color: var(--tittle-color)
 }
 
-.category{
+.category {
   font-size: 16px;
   line-height: 1.88;
-  color: var(--main-text-color); 
+  color: var(--main-text-color);
 }
 
-.link-pages{
+.link-pages {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -138,19 +137,19 @@ color: var(--accent-color);
   line-height: 1.43;
   letter-spacing: 0.02em;
   color: var(--tittle-color);
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .link-pages:hover,
-.link-pages:focus{
+.link-pages:focus {
   color: var(--accent-color-text);
 }
 
-.link-pages.current{
-  color:var(--accent-color-text);
+.link-pages.current {
+  color: var(--accent-color-text);
 }
 
-.link-top{
+.link-top {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -162,12 +161,12 @@ color: var(--accent-color);
 }
 
 .link-top:hover,
-.link-top:focus{
+.link-top:focus {
   color: var(--accent-color-text);
 
 }
 
-.link-bottom{
+.link-bottom {
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
@@ -179,23 +178,23 @@ color: var(--accent-color);
 }
 
 .link-bottom:hover,
-.link-bottom:focus{
-  color: var(--accent-color-text);  
-}
-
-.map-link{
-font-size: 14px;
-line-height: 1.71;
-color: var(--accent-color);
-text-decoration: none;
-}
-
-.map-link:hover,
-.map-link:focus{
+.link-bottom:focus {
   color: var(--accent-color-text);
 }
 
-.link-logo{
+.map-link {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.map-link:hover,
+.map-link:focus {
+  color: var(--accent-color-text);
+}
+
+.link-logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -204,12 +203,12 @@ text-decoration: none;
   text-decoration: none;
 }
 
-.studio{
+.studio {
   font-size: 26px;
   line-height: 1.19;
-  color:var(--tittle-color);
+  color: var(--tittle-color);
 }
 
-.studio-bottom{
-  color:var(--accent-color)
+.studio-bottom {
+  color: var(--accent-color)
 }
